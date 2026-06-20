@@ -94,10 +94,17 @@ body {
     color: var(--color-fg);
     text-decoration: none;
     letter-spacing: -0.02em;
+    line-height: 0;
 }
 
 .nav__logo:hover {
-    color: var(--color-accent);
+    opacity: 0.85;
+}
+
+.nav__logo-img {
+    height: 28px;
+    width: auto;
+    display: block;
 }
 
 .nav__links {
@@ -155,6 +162,13 @@ body {
 
 .hero__inner {
     position: relative;
+}
+
+.hero__logo {
+    height: 80px;
+    width: auto;
+    display: block;
+    margin: 0 auto var(--space-6);
 }
 
 .hero__badge {
